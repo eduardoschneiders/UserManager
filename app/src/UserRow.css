@@ -1,0 +1,37 @@
+div.externalCode {
+	width: 100px; 
+	float: left;
+	text-align: left;
+}
+
+div.name {
+	width: 360px; 
+	float: left;
+	text-align: left;
+	margin: 0 10px;
+}
+
+div.email {
+	width: 350px; 
+	float: left;
+	text-align: left;
+	margin: 0 10px;
+}
+
+div.button {
+	width: 50px; 
+	float: left;
+	text-align: left;
+	margin: 0 10px;
+}
+
+div.mainRow {
+	clear: both;
+	float: left
+}
+
+div.clear {
+	clear: both;
+	float: left
+}
+

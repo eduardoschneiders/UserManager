@@ -1,0 +1,52 @@
+body {
+  background: #f1f4f6;
+  width: 100%;
+}
+
+.App {
+  text-align: center;
+  margin: 10px 100px;
+}
+
+
+.UsersList {
+  background: #fff;
+  padding: 20px;
+  margin: 30px 0;
+  box-shadow: 0 0.46875rem 2.1875rem rgba(4,9,20,0.03), 0 0.9375rem 1.40625rem rgba(4,9,20,0.03), 0 0.25rem 0.53125rem rgba(4,9,20,0.05), 0 0.125rem 0.1875rem rgba(4,9,20,0.03);
+
+  border-width: 0;
+  transition: all .2s;
+  float: left;
+  width: 100%;
+}
+
+.UsersList .header {
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  border-bottom-width: 1px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: .625rem;
+  height: 3.5rem;
+  border-color: #CCC;
+  border-bottom: solid 1px #CCC;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: rgba(13,27,62,0.7);
+  font-weight: bold;
+  font-size: .88rem;
+}
+
+input {
+    height: calc(1.8125rem + 2px);
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    border: 1px solid #ced4da;
+}
